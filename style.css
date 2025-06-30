@@ -30,6 +30,10 @@ body {
     gap: 0.8em;
 }
 
+body>* {
+    width: 100%;
+}
+
 section {
     max-width: 40em;
 
@@ -48,6 +52,7 @@ a#language {
     font-size: 1.2em;
 
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 0.4em;
 
