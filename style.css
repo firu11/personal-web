@@ -1,6 +1,27 @@
 /* @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2&family=Fragment+Mono:ital@0;1&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap'); */
+
+@font-face {
+    font-family: Figtree;
+    src: url(assets/figtree-font/Figtree-Bold.ttf);
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Figtree;
+    src: url(assets/figtree-font/Figtree-SemiBold.ttf);
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Figtree;
+    src: url(assets/figtree-font/Figtree-Light.ttf);
+    font-weight: 200;
+    font-display: swap;
+}
 
 * {
     padding: 0;
@@ -17,7 +38,7 @@
 
 body {
     font-family: "Figtree", monospace;
-    font-weight: 600 !important;
+    font-weight: 600;
     background-color: #0a0014;
     min-height: 100vh;
     padding: 6%;
@@ -36,6 +57,10 @@ body>* {
 
 section {
     max-width: 40em;
+
+    h1 {
+        font-size: 1.5em;
+    }
 
     >* {
         margin: 0.6em 0;
@@ -85,7 +110,6 @@ a#language {
             gap: 1em;
 
             img {
-                height: 1.8em;
                 filter: brightness(0) invert(1);
                 user-select: none;
             }
@@ -115,7 +139,6 @@ a#language {
             img.copy {
                 display: none;
 
-                height: 1.1em;
                 filter: brightness(0) invert(1);
                 user-select: none;
                 cursor: pointer;
@@ -159,7 +182,6 @@ a#language {
                 text-decoration: none;
 
                 .logo {
-                    height: 100%;
                     user-select: none;
                 }
 
