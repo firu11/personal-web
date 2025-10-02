@@ -199,3 +199,12 @@ a#language {
         }
     }
 }
+
+#error {
+    text-align: center;
+    margin-bottom: 55vh;
+
+    h1 {
+        margin-bottom: 0;
+    }
+}
