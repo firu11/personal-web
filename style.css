@@ -113,10 +113,6 @@ a#language {
                 filter: brightness(0) invert(1);
                 user-select: none;
             }
-
-            img[src="assets/mail.svg"] {
-                padding: -0.1em;
-            }
         }
     }
 
