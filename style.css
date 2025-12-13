@@ -4,21 +4,21 @@
 
 @font-face {
     font-family: Figtree;
-    src: url(assets/figtree-font/Figtree-Bold.ttf);
+    src: url(/assets/figtree-font/Figtree-Bold.ttf);
     font-weight: bold;
     font-display: swap;
 }
 
 @font-face {
     font-family: Figtree;
-    src: url(assets/figtree-font/Figtree-SemiBold.ttf);
+    src: url(/assets/figtree-font/Figtree-SemiBold.ttf);
     font-weight: 600;
     font-display: swap;
 }
 
 @font-face {
     font-family: Figtree;
-    src: url(assets/figtree-font/Figtree-Light.ttf);
+    src: url(/assets/figtree-font/Figtree-Light.ttf);
     font-weight: 200;
     font-display: swap;
 }
