@@ -1,0 +1,17 @@
+version: "3"
+
+vars:
+  SERVER: firu.dev
+  REMOTE_DIR: /srv/firu.dev
+
+tasks:
+  upload:
+    desc: Upload site to server
+    cmds:
+      - >
+        rsync -avz --delete
+        --exclude ".git"
+        --exclude ".DS_Store"
+        --exclude "taskfile.yaml"
+        ./
+        {{.SERVER}}:{{.REMOTE_DIR}}/
