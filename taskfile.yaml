@@ -2,7 +2,7 @@ version: "3"
 
 vars:
   SERVER: firu.dev
-  REMOTE_DIR: /srv/firu.dev
+  REMOTE_DIR: /srv/www/firu.dev
 
 tasks:
   upload:
