@@ -214,3 +214,13 @@ a#language {
     margin-bottom: 0;
   }
 }
+
+/* hide scrollbar for whole page*/
+html, body {
+  scrollbar-width: none; /* firefox */
+  overflow-y: scroll;
+
+  ::-webkit-scrollbar {
+    display: none; /* chromium */
+  }
+}
