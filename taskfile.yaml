@@ -15,3 +15,7 @@ tasks:
         --exclude "taskfile.yaml"
         ./
         {{.SERVER}}:{{.REMOTE_DIR}}/
+
+  dev:
+    desc: Run file-server
+    cmd: python -m http.server 8080

@@ -171,6 +171,7 @@ a#language {
     gap: 1em;
 
     > div {
+      position: relative;
       max-width: 19em;
 
       /* border: 1px solid #fff3; */
@@ -202,6 +203,26 @@ a#language {
           margin-left: -0.3em;
         }
       }
+
+      > a:not(.repo-link) {
+        margin-right: 2em;
+      }
+
+      .repo-link {
+        position: absolute;
+        top: 0.5em;
+        right: 0.5em;
+        width: 1em;
+        height: 1em;
+        margin: 0;
+
+        img {
+          filter: brightness(0) invert(1);
+          user-select: none;
+          width: 1em;
+          height: 1em;
+        }
+      }
     }
   }
 }
@@ -216,7 +237,8 @@ a#language {
 }
 
 /* hide scrollbar for whole page*/
-html, body {
+html,
+body {
   scrollbar-width: none; /* firefox */
   overflow-y: scroll;
 
