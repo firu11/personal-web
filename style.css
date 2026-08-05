@@ -210,11 +210,15 @@ a#language {
 
       .repo-link {
         position: absolute;
-        top: 0.5em;
-        right: 0.5em;
-        width: 1em;
-        height: 1em;
+        top: 0.2em;
+        right: 0.1em;
+        width: 1.4em;
+        height: 1.4em;
         margin: 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
         img {
           filter: brightness(0) invert(1);
